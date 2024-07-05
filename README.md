@@ -31,10 +31,13 @@ Output File Structure
 The output file (.huf) contains:
 
 Min Heap data: ({character data} {huffman code for that character}) * minheapsize
+
 Encoded input file characters
+
 count0: Number of '0's appended at the end of the binary string to make it a multiple of 8 bits.
 
 Decompressing a File (decompress())
+
 1.getTree(): Reads the Min Heap from the beginning of the file and reconstructs the Huffman Tree.
 
 2.saveDecodedFile(): Reads the encoded file and decodes it using the Huffman Tree to reconstruct the original file.
