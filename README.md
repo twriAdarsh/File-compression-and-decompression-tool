@@ -2,9 +2,6 @@ Huffman Coding Compression Algorithm
 
 This project implements Huffman Coding, a lossless, bottom-up compression algorithm. It can efficiently compress and decompress any text files by using variable-length codes for encoding characters based on their frequencies.
 
-Learn More
-To learn more about Huffman Coding and its applications in Information Theory, read this article.
-
 Implementation
 This project supports two main functions:
 
